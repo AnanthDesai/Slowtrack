@@ -1,0 +1,47 @@
+#C Development Environment
+
+ 
+There are 6 main phases in c program:
+
+1.Edit
+
+2.Preprocess
+
+3.Compile
+
+4.Link
+
+5.Load 
+
+6.Execute
+
+
+
+Based on Fig.1.1:
+
+Fig.1.1 is represents the typical C development Environment.
+It explains the various phases of the environment using pictorial representation.
+
+Phase 1: This phase explains the creation of the program. The programmer creates a new program using editors.
+             This program is stored on the disk.
+Vi and Emacs are a few widely used editor programs to run C programming Languages. 
+             The C program is always saved by using the extension ".c".
+
+Phase 2: In this phase the compilation process is inititated by the programmer.
+             The preprocessor runs the compilation and processes the code.
+             It follows predefined directives and precomiles even before this phase begins.
+
+Phase 3: In this phase the compiler translates the converts the C program into machine level language.
+             The object code is created and stored on the disk.
+
+Phase 4:This phase is executed to link functions defined elsewhere.
+             The linker links the object code with the codde to produce executable image.
+
+Phase 5: In this phase the program is placed into the memory by the loader. 
+             The executable image along with components of the shared libraries are transferred to the memory.
+
+Phase 6: This is the final phase in which the CPU executes the instructions line by line.
+
+
+
+
