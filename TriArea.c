@@ -1,14 +1,12 @@
 #include<stdio.h>
 int
-TriArea (int b, int h)
+TriArea (float b, float h)
 {
   return ((b * h) / 2);
 }
-
-int
 main ()
 {
-  int base, height, area;
+  float base, height, area;
   printf ("enter the values of the base and the height of the triangle \n");
   scanf ("%d %d", &base, &height);
   area = TriArea (base, height);
