@@ -1,9 +1,8 @@
 #include <stdio.h>
-#define MAX_SIZE 100
 
 int main()
 {
-    int arr[MAX_SIZE];
+    int a[10];
     int i, n, sum=0;
     printf("Enter size of the array: ");
     scanf("%d", &n);
@@ -15,7 +14,7 @@ int main()
 
     for(i=0; i<n; i++)
     {
-        sum = sum + arr[i];
+        sum = sum + a[i];
     }
     
     printf("Sum of all elements of array = %d", sum);
