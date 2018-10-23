@@ -1,16 +1,17 @@
 #include<stdio.h>
 struct TriArea
 {
-float base,height,area;
-}a;
-int main()
+  float base, height, area;
+} a;
+int
+main ()
 {
-printf("enter the value of the base \n");
-scanf("%f", &a.base);
-printf("enter the value of the height \n");
-scanf("%f", &a.height);
+  printf ("enter the value of the base \n");
+  scanf ("%f", &a.base);
+  printf ("enter the value of the height \n");
+  scanf ("%f", &a.height);
 
-a.area=((a.base*a.height)/2);
+  a.area = ((a.base * a.height) / 2);
 
-printf("The area of the triangle is %f \n", a.area);
+  printf ("The area of the triangle is %f \n", a.area);
 }
