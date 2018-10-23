@@ -1,7 +1,7 @@
 #include<stdio.h>
-int TriArea(int base,int height)
+int TriArea(int b,int h)
 {
-return ((base*height)/2);
+return ((b*h)/2);
 }
 int main()
 {
