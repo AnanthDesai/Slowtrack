@@ -1,13 +1,16 @@
 #include<stdio.h>
-int TriArea(int b,int h)
+int
+TriArea (int b, int h)
 {
-return ((b*h)/2);
+  return ((b * h) / 2);
 }
-int main()
+
+int
+main ()
 {
-int base,height,area;
-printf("enter the values of the base and the height of the triangle \n");
-scanf("%d %d",&base,&height);
-area=TriArea(base,height);
-printf("the area of the triangle is %d", area);
+  int base, height, area;
+  printf ("enter the values of the base and the height of the triangle \n");
+  scanf ("%d %d", &base, &height);
+  area = TriArea (base, height);
+  printf ("the area of the triangle is %d", area);
 }
