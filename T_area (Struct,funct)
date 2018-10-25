@@ -1,0 +1,20 @@
+#include<stdio.h>
+struct T_area
+{
+    float b;
+    float h;
+    float area;
+}c;
+float TriA(float ba,float he)
+{
+    c.area=((ba*he)/2.0);
+    return c.area;
+}
+float main()
+{
+    printf("enter the values  of the base and height \n");
+    scanf("%f %f", &c.b, &c.h);
+    c.area = TriA(c.b,c.h);
+    printf("the area of triangle is %f", c.area);
+    return 0;
+}
