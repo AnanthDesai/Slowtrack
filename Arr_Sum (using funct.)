@@ -2,10 +2,10 @@
 int Add(int c[],int p)
 {
     int sum=0;
-    int i;
-    for(i<0;i<p;i++)
+    int r;
+    for(r<0;r<p;r++)
     {
-        sum=sum+c[i];
+        sum=sum+c[r];
     }
     return sum;
 }
