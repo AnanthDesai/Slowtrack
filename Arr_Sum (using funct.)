@@ -1,0 +1,24 @@
+#include<stdio.h>
+int Add(int c[],int p)
+{
+    int sum=0;
+    int i;
+    for(i<0;i<p;i++)
+    {
+        sum=sum+c[i];
+    }
+    return sum;
+}
+int main()
+{
+    int n,i,a[i],Ar_sum;
+    printf("enter the size of the array \n");
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        printf("enter the elements of the array \n");
+        scanf("%d", &a[i]);
+    }
+    Ar_sum = Add(a,n);
+    printf("the sum of the array is = %d", Ar_sum);
+}
