@@ -1,0 +1,24 @@
+#include<stdio.h>
+struct fraction
+{
+    int numo;
+    int deno;
+};
+fraction f_Sum(fraction f1,fraction f2)
+{
+    fraction vSum;
+    vSum=f1+f2;
+    return vSum;
+}
+main()
+{
+    int i,n;
+    fraction a[i];
+    printf("enter the size of the array \n");
+    scanf("%d", &n);
+    for(i=0;i<n;i++)
+    {
+        printf("enter the numerator and the denominator of the array elements \n");
+        scanf("%d %d, &q.numo, &q.deno");
+    }
+}
