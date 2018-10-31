@@ -1,0 +1,36 @@
+/* A simple program to find the sum of two fractions*/
+#include<stdio.h>
+
+/*defining a fraction structure*/
+typedef struct fraction
+{
+    int numo;
+    int deno;
+}fa;
+
+/*A function for adding the two fractions*/
+ fraction fsum(fraction b[],int p)
+{
+    int q;
+    fraction vSum=0;
+    for(q=0;q<p;q++)
+    {
+        vSum=vSum+b[q];
+    }
+    return vSum;
+}
+main()
+{
+    int i,n;
+    fraction a[i],b,result;
+    printf("enter the size of the array \n");
+    scanf("%d", &n);
+    for(i=0;i<n;i++)
+    {
+        printf("enter the numerator and the denominator as the array elements");
+        scanf("%d %d",&fa.numo,&fa.deno);
+        b=(fa.numo/fa.deno);
+        a[i]=b;
+    }
+    result = fsum(a[i],n);
+}
